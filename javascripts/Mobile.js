@@ -6,9 +6,11 @@ n.cssHooks[b]=Ua(l.pixelPosition,function(a,c){return c?(c=Sa(a,b),Oa.test(c)?n(
 $.noConflict();
 
 //on load
-jQuery('input[name="visitor_accept_terms"]').attr('checked', true);
-jQuery('input[type="submit"]').click();
-
+jQuery().ready(function(){
+	jQuery('input[name="visitor_accept_terms"]').attr('checked', true);
+	jQuery('input[type="submit"]').click();
+	console.log('ready fired');
+});
 //check function
 function checkStatus(){
 	return jQuery('.download_cta').is(':visible');
