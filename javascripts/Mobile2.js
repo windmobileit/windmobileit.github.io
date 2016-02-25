@@ -14,4 +14,4 @@ jQuery().ready(function(){
 //check function
 function checkStatus(){
 	return jQuery('.download_cta').is(':visible') || jQuery('td p:contains("Logging in, please wait...")').is(':visible');
-}
+} 
