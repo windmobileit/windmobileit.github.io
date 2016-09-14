@@ -1,1 +1,13 @@
-Generate, and upload apple-app-site-association file on your website (if you don't have it yet).
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "8D7JR9BZ98.ca.windmobile.selfcare.prod",
+        "paths": [
+          "/beta/*"
+        ]
+      }
+    ]
+  }
+}
