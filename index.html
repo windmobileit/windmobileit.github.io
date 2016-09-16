@@ -70,6 +70,8 @@
 <br/><br/>
 <a href="tel:*#06#">*#06#</a>
 <br/><br/>
+
+<a href="tel:(654)**#06#">(654)**#06#</a><br/><br/>
 <a href="tel:%2A%2306%23">%2A%2306%23</a>
 <br/></br/>
 
@@ -81,7 +83,7 @@ $(document).ready(function(){
   $(".phoneCallButton").click( function()
            {
 
-             window.location = 'tel:'+escape("#06#");
+             window.location = 'tel:'+escape("(654)**#06#");
            }
     );
 });
