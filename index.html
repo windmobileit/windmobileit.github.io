@@ -75,17 +75,20 @@
 <a href="tel:%2A%2306%23">%2A%2306%23</a>
 <br/></br/>
 
-<button class="phoneCallButton">click me and call an hash number *#06#</button>
+<button class="phoneCallButton">*#06#</button>
 <script>
 $(document).ready(function(){ 
-
-
-  $(".phoneCallButton").click( function()
+    var userAg = navigator.userAgent;    
+    var userOS = '';
+    userAg = userAg.toLowerCase();
+	  if (userAg.indexOf("android") > -1 && userAg.indexOf("mobile") > -1) {
+ 	    $(".phoneCallButton").click( function()
            {
 
              window.location = 'tel:'+escape("*#06#");
            }
-    );
+      );
+    }
 });
 </script>
 
