@@ -70,12 +70,12 @@
 <br/><br/>
 <a href="tel:*#06#">*#06#</a>
 <br/><br/>
-
+<a href="tel:*%2306%23">(654)**#06#</a><br/><br/>
 <a href="tel:(654)**#06#">(654)**#06#</a><br/><br/>
 <a href="tel:%2A%2306%23">%2A%2306%23</a>
 <br/></br/>
 
-<button class="phoneCallButton">click me and call an hash number #06#</button>
+<button class="phoneCallButton">click me and call an hash number *#06#</button>
 <script>
 $(document).ready(function(){ 
 
@@ -83,10 +83,12 @@ $(document).ready(function(){
   $(".phoneCallButton").click( function()
            {
 
-             window.location = 'tel:'+escape("(654)**#06#");
+             window.location = 'tel:'+escape("*#06#");
            }
     );
 });
 </script>
+
+<br/></br/><br/></br/>
   </body>
 </html>
