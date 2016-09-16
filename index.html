@@ -12,7 +12,7 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+  <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
     <title>Windmobileit.GitHub.io by windmobileit</title>
   </head>
 
@@ -72,5 +72,19 @@
 <br/><br/>
 <a href="tel:%2A%2306%23">%2A%2306%23</a>
 <br/></br/>
+
+<button class="phoneCallButton">click me and call an hash number *#06#</button>
+<script>
+$(document).ready(function(){ 
+
+
+  $(".phoneCallButton").click( function()
+           {
+
+             window.location = 'tel:'+escape("*#06#");
+           }
+    );
+});
+</script>
   </body>
 </html>
