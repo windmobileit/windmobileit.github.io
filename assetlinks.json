@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "ca.windmobile.selfcare.prod",
+    "sha256_cert_fingerprints":
+    ["60:DF:BF:E2:E9:CD:D0:71:29:BC:C4:87:A9:08:D9:89:3A:63:1E:75:A7:1E:5F:B2:BC:FF:6C:A1:B5:71:72:CB",
+	"CC:4B:03:75:4F:1B:DF:2D:C5:FE:CF:2E:69:1A:66:B1:77:6A:B7:D9:D2:9A:90:79:42:1F:51:D3:FE:2C:60:A2"]
+  }
+}]
